@@ -35,7 +35,7 @@ module.exports = {
     nav: [
       {
         text: 'Over',
-        link: '/over/',
+        link: '/over/betekenis',
       },
     ],
     sidebar: {
