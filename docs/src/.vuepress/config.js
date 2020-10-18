@@ -37,6 +37,14 @@ module.exports = {
         text: 'Over',
         link: '/over/betekenis',
       },
+      { 
+        text: 'Toepassingen',
+        link: '/toepassingen/voorbeelden',
+      },
+      { 
+        text: 'Uitvoering',
+        link: '/uitvoering/stappenplan',
+      }
     ],
     sidebar: {
       '/over/': [
@@ -52,6 +60,28 @@ module.exports = {
           ]
         }
       ],
+      '/toepassingen/': [
+        {
+          title: 'Toepassingen',
+          collapsable: false,
+          children: [
+            'voorbeelden',
+            'eigenInterface',
+          ]
+        }
+      ],
+      '/uitvoering/': [
+        {
+          title: 'Uitvoering',
+          collapsable: false,
+          children: [
+            'setup',
+            'stappenplan',
+            'stappenplan2',
+            'stappenplan3',
+          ]
+        }
+      ],
     }
   },
 
@@ -61,5 +91,7 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
+
+  base:  '/research-nmdgent-sennwanc/',
 }

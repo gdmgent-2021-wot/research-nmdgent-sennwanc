@@ -23,5 +23,3 @@ _Een voorbeeld is een chatbot van een bedrijf. Daar zal de chatbot in eerste pla
 - Om een stapje verder te gaan kunnen slimme apparaten ook gekoppeld worden aan de assistent.
   - De commando's van de gebruiker gaan dan via de assistent naar het slimme apparaat.
   - _Voorbeeld: Google Home - Philips Hue_
-
-![assistent](https://ebusinessinstitute.com/wp-content/uploads/2018/06/voice-technology-assistants.jpg)
